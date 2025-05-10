@@ -1,0 +1,8 @@
+.footer {
+  background-color: #4CAF50; /* Match header color */
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  border-top: 3px solid #388E3C;
+}

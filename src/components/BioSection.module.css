@@ -1,0 +1,28 @@
+.container {
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  color: #4CAF50;
+  border-bottom: 2px solid #4CAF50;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.section ul li {
+  margin-bottom: 5px;
+}
+
+.section p {
+  margin: 5px 0;
+  line-height: 1.6;
+}

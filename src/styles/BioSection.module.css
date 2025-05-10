@@ -1,0 +1,39 @@
+.container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.objective {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.skills {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    background-color: #e0e0e0;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.experience {
+    margin-top: 20px;
+}
+
+.education {
+    margin-top: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,39 @@
+.container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+  color: #4CAF50;
+  border-bottom: 2px solid #4CAF50;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.container li {
+  margin-bottom: 15px;
+}
+
+.container li a {
+  font-weight: bold;
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.container li a:hover {
+  text-decoration: underline;
+}
+
+.container li p {
+  margin: 5px 0 0 0;
+  color: #555;
+  font-size: 14px;
+}

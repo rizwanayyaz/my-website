@@ -1,0 +1,28 @@
+{
+  "name": "personal-bio-website",
+  "version": "1.0.0",
+  "description": "A personal bio website showcasing M. Rizwan Ayyaz's professional background and skills.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [
+    "bio",
+    "portfolio",
+    "nextjs"
+  ],
+  "author": "M. Rizwan Ayyaz",
+  "license": "MIT",
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "typescript": "latest",
+    "@types/react": "latest",
+    "@types/node": "latest"
+  }
+}
