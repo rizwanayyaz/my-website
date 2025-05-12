@@ -13,12 +13,19 @@ h1, h2, h3 {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline; /* Add underline to all links */
     color: #4CAF50;
+    display: inline-flex;
+    align-items: center; /* Align icons with text */
+    gap: 5px; /* Add space between icon and text */
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none; /* Remove underline on hover */
+    background-color: #e8f5e9; /* Highlight background on hover */
+    border-radius: 4px; /* Add rounded corners */
+    padding: 2px 4px; /* Add padding for better appearance */
+    font-weight: bold; /* Highlight text */
 }
 
 .container {
