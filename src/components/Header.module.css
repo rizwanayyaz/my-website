@@ -1,9 +1,54 @@
 .header {
-  background-color: #4CAF50;
-  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding: 20px;
-  text-align: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: transparent; /* Remove background color */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border-bottom: 3px solid #e0e0e0; /* Light border for a clean look */
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+.nameAndContact {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Space between name, email, and phone */
+  flex-wrap: wrap; /* Wrap content on smaller screens */
+}
+
+.name {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  color: #333; /* Dark text for readability */
+}
+
+.contactInfo {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between email and phone */
+  font-size: 18px;
+  color: #555;
+  flex-wrap: wrap; /* Wrap content on smaller screens */
+}
+
+.contactInfo a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.contactInfo a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.profilePicture {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; /* Make the image circular */
+  object-fit: cover; /* Ensure the image fits properly */
+  border: 2px solid #4CAF50; /* Add a border around the image */
+  margin-top: 10px; /* Add spacing for smaller screens */
 }
 
 .navList {
@@ -27,4 +72,99 @@
 
 .navList a:hover {
   text-decoration: underline;
+}
+
+.aboutSection {
+  margin-top: 20px;
+  text-align: left;
+  padding: 10px 20px;
+  background-color: #ffffff; /* White background for contrast */
+  color: #333; /* Dark text for readability */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.aboutSection h2 {
+  font-size: 24px;
+  color: #4CAF50;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between icon and text */
+}
+
+.aboutSection p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.contactInfo {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between email, separator, and phone */
+  margin-top: 10px;
+  text-align: left;
+  padding: 10px 20px;
+  background-color: #ffffff; /* White background for contrast */
+  color: #333; /* Dark text for readability */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  color: #555;
+}
+
+.contactInfo ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contactInfo li {
+  margin-bottom: 10px;
+}
+
+.contactInfo a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+.contactInfo a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    text-align: center;
+  }
+
+  .nameAndContact {
+    flex-direction: column; /* Stack name and contact info vertically */
+    align-items: center;
+    gap: 10px;
+  }
+
+  .profilePicture {
+    margin-top: 20px; /* Add spacing between contact info and picture */
+  }
+}
+
+@media (max-width: 480px) {
+  .name {
+    font-size: 20px; /* Reduce font size for smaller screens */
+  }
+
+  .contactInfo {
+    font-size: 16px; /* Adjust font size for smaller screens */
+    gap: 5px; /* Reduce gap for smaller screens */
+  }
+
+  .profilePicture {
+    width: 60px; /* Reduce picture size for smaller screens */
+    height: 60px;
+  }
 }

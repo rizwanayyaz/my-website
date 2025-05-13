@@ -92,12 +92,6 @@ const TechContributions: React.FC = () => {
               <FontAwesomeIcon icon={faArchive} /> Subscribe for Archive Projects
             </a>
           </li>
-        <li>
-        <h2>About Me</h2>
-            <p>
-            I am M. Rizwan Ayyaz, a results-driven Technology Leader with over 12 years of experience in digital transformation and enterprise systems integration. My expertise lies in logistics technology solutions and cross-platform integration, where I have successfully architected scalable solutions that bridge operational platforms with enterprise systems.
-            </p>
-        </li>
       </ul>
       <h2>Projects</h2>
         <ul>

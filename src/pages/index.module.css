@@ -11,3 +11,18 @@
 .rightColumn {
   flex: 1;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Stack columns vertically */
+  }
+
+  .rightColumn {
+    order: 2; /* Move Tech Contributions below BioSection */
+  }
+
+  .leftColumn {
+    order: 1; /* Ensure BioSection stays on top */
+  }
+}

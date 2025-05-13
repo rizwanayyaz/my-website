@@ -1,5 +1,10 @@
 .container {
   padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin: 20px auto;
 }
 
 .section {
@@ -10,7 +15,15 @@
   color: #4CAF50;
   border-bottom: 2px solid #4CAF50;
   padding-bottom: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.section p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #333;
 }
 
 .section ul {
@@ -19,10 +32,39 @@
 }
 
 .section ul li {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #555;
 }
 
-.section p {
-  margin: 5px 0;
-  line-height: 1.6;
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+    margin: 10px;
+  }
+
+  .section h2 {
+    font-size: 20px; /* Reduce heading size for smaller screens */
+  }
+
+  .section p,
+  .section ul li {
+    font-size: 14px; /* Reduce font size for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 10px;
+  }
+
+  .section h2 {
+    font-size: 18px; /* Further reduce heading size for very small screens */
+  }
+
+  .section p,
+  .section ul li {
+    font-size: 12px; /* Further reduce font size for very small screens */
+  }
 }

@@ -5,9 +5,8 @@ const BioSection: React.FC = () => {
   return (
     <div className={styles.container}>
       <section className={styles.section}>
-        <h2>Contact Info</h2>
-        <p><strong>Email:</strong> rizwanayyaz@gmail.com</p>
-        <p><strong>Phone:</strong> +971 5861 99 047</p>
+        <h2>About Me</h2>
+        <p>I am a results-driven Technology Leader with over 8 years of experience in digital transformation and enterprise systems integration. My expertise lies in logistics technology solutions and cross-platform integration, where I have successfully architected scalable solutions that bridge operational platforms with enterprise systems.</p>
       </section>
 
       <section className={styles.section}>
